@@ -15,8 +15,8 @@ const colorFontGithub = '#C9D1D9';
 const colorDarkFontGithub = '#4F565E';
 
 const imageProfileGithub =
-  'https://avatars.githubusercontent.com/u/28990749?v=4';
-const urlToMyGithub = 'https://github.com/ismaelsousa';
+  'https://avatars.githubusercontent.com/u/105082964?s=40&u=12205c9467b91bf9000cbe578e7b49cebcfa1872&v=4';
+const urlToMyGithub = 'https://github.com/JosianeCHSantos';
 
 const App = () => {
   const handlePressGoToGithub = async () => {
@@ -34,19 +34,19 @@ const App = () => {
       <StatusBar backgroundColor={colorGithub} barStyle="light-content" />
       <View style={style.content}>
         <Image
-          accessibilityLabel="Ismael no quarto com fundo azul"
+          accessibilityLabel="Josiane em busca de novos desafios e aprendizados"
           style={style.avatar}
           source={{uri: imageProfileGithub}}
         />
         <Text
-          accessibilityLabel="Nome: ismael moreira"
+          accessibilityLabel="Nome: Josiane Santos"
           style={[style.defaultText, style.name]}>
           Ismael Moreira
         </Text>
         <Text
-          accessibilityLabel="Nickname: ismael sousa"
+          accessibilityLabel="Nickname: Josiane Santos"
           style={[style.defaultText, style.nickname]}>
-          ismaelsousa
+          JosianeCHSantos
         </Text>
         <Text
           accessibilityLabel="Descrição: Software engineer | Leader tech at Fleye | Mobile Developer | Mentor
